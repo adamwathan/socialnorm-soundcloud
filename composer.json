@@ -1,6 +1,6 @@
 {
-    "name": "socialnorm/instagram",
-    "description": "Instagram provider for SocialNorm",
+    "name": "socialnorm/soundcloud",
+    "description": "SoundCloud provider for SocialNorm",
     "authors": [
     {
         "name": "Adam Wathan",
