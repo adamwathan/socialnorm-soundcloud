@@ -12,6 +12,12 @@ class SoundCloudProvider extends OAuth2Provider
         'non-expiring',
     ];
 
+    protected $headers = [
+        'authorize' => [],
+        'access_token' => ['Content-Type' => 'application/x-www-form-urlencoded'],
+        'user_details' => [],
+    ];
+
     protected function getAuthorizeUrl()
     {
         return $this->authorizeUrl;
